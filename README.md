@@ -1,5 +1,5 @@
 # crc32-checksum-file-generator-java
-This is a JAVA code which generates Linux CRC 32 checksum file using Jacksum jar. 
+This is a JAVA code which generates Unix (Ubuntu) cksum algorithm CRC 32 checksum file using Jacksum jar. 
 
 Below is rationale behind generating this file during the File Transfer type of integrations. 
 
