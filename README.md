@@ -1,6 +1,12 @@
 # crc32-checksum-file-generator-java
 This is a JAVA code that generates Unix (Ubuntu) cksum algorithm CRC 32 checksum file using Jacksum jar.
 
+# How to use this code
+1. Clone the code in your local 
+2. Copy the GenerateCRC32checksumFile.java class in your Mule Project 
+3. Add the jacksum.jar in your project (This jar is also provided in the source code) 
+4. Invoke this class in your Mule flow and pass the three arguments of type String - orgFilename, inputPath, outputPath 
+
 Below is the rationale behind generating this file during the File Transfer type of integrations.
 
 # Audit Files and Usage of Dropbox Inbound Folder
