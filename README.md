@@ -1,6 +1,9 @@
 # crc32-checksum-file-generator-java
-This is a JAVA code which generates Linux CRC 32 checksum file using Jacksum jar
-Audit Files and Usage of Dropbox Inbound Folder
+This is a JAVA code which generates Linux CRC 32 checksum file using Jacksum jar. 
+
+Below is rationale behind generating this file during the File Transfer type of integrations. 
+
+# Audit Files and Usage of Dropbox Inbound Folder
 Files dropped to the /inbound directory of the drop box will not get picked up for processing unless a corresponding audit file is present. This article will explain what an audit file is and how to generate one.
  Solution/Workaround:
 An audit file is a file containing the output of the cksum UNIX command. This can be generated on UNIX systems or on Windows system using cygwin. The audit file filename is the same as the input filename but with an .aud added to the end of it.
